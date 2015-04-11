@@ -1,0 +1,28 @@
+function [ xp,yp ] = genMotionPrimative(delta,dt,tmax,v,L)
+%GENMOTIONPRIMATIVE Summary of this function goes here
+%   Generates a motion primative given an 
+
+numSteps = floor(tmax/td);
+
+xCurve = zeros(numSteps,1);
+yCurve = zeros(numSteps,2);
+
+x = 0;
+y = 0;
+th = 0;
+
+
+for(i=1:numSteps)
+   
+  x = x+v*cos(th)*dt;
+  y = y+v*cos(th)*dt;
+  th = th + (v/L)*tan(delta)*dt;
+  
+  x  
+    
+end
+
+
+
+end
+

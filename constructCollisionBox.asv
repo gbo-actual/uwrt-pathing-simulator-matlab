@@ -1,0 +1,11 @@
+function [orientedBox] = constructCollisionBox(currentState, corner)
+% currentState -> [ x y th ] -> x, y for position, th for heading (th in 
+% corner -> [ x1 y1; x2 y2; ... ] -> x, y for position
+
+orientedBox = [];
+
+for i=1:length(corner)
+    orientedBox = [ orientedBox; (currentState(1:2) + )]; % rotate corner, rotate axle-to-centre offset, add the two, then add to current state (which is on path)
+end
+
+end
