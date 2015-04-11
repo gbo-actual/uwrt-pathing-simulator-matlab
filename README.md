@@ -21,3 +21,9 @@ Currently, the simulator successfully navigates through test map 02 (included in
 - rover collision box has a safety factor parameter that can be adjusted (default 2)
 - steering servos instantly turn to desired angle at each timestep
 - speed needs to be improved, possibly through more sparse discretization or simpler algorithms
+
+# Licensing
+
+Licensed under The MIT License (MIT).
+Copyright (c) 2015 Gabriel Ongpauco.
+See LICENSE.md for details.

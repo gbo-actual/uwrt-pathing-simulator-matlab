@@ -2,7 +2,10 @@
 % it mapped a rainbow path of quiver circles, but that feature was removed
 % =(
 % Arun Das, Gabriel Ongpauco, Mojdeh Shahidi, Steven Waslander
-% Last change: Gabriel Ongpauco, 2012/07/7
+% Last change: Gabriel Ongpauco, 2015/03/26
+
+% Licensed under The MIT License (MIT)
+% Copyright (c) 2015 Gabriel Ongpauco
 
 % adjustable simulation parameters:
 % map file
